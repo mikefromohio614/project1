@@ -7,12 +7,12 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - [ansible.cfg](/Ansible/ansible.cfg)
-  - [filebeat-config.yml](/ansible/filebeat-config.yml)
-  - [filebeat-playbook.yml](ansible/filebeat-playbook.yml)
-  - [hosts.yml](ansible/hosts.yml)
-  - [install-elk.yml](ansible/install-elk.yml)
-  - [metricbeat-config.yml](ansible/metricbeat-config.yml)
-  - [metricbeat-playbook.yml](ansible/metricbeat-playbook.yml)
+  - [filebeat-config.yml](/Ansible/filebeat-config.yml)
+  - [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
+  - [hosts.yml](Ansible/hosts.yml)
+  - [install-elk.yml](Ansible/install-elk.yml)
+  - [metricbeat-config.yml](Ansible/metricbeat-config.yml)
+  - [metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -82,7 +82,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -125,7 +125,7 @@ Answer the following questions to fill in the blanks:_
 
   - see image below:
 
-    ![](Images/playbook_question_hosts.png)
+    ![](Images/playbook_question_hosts.PNG)
 
 - Which URL do you navigate to in order to check that the ELK server is running? **http://[ELK_Server_Public_IP]:5601/app/kibana.**
 
